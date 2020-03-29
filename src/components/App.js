@@ -47,10 +47,12 @@ function App() {
       <div className="App">
         <NavBar />
         <div className="content">
+        <Switch>
           <Route exact path="/" component={About} />
           <Route path="/about" component={About} />
           <Route path="/projects" component={Projects} />
           <Route path="/contact" component={Contact} />
+        </Switch>
         </div>
       </div>
     </BrowserRouter>
