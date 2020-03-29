@@ -1,0 +1,15 @@
+
+.techs-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.techs-list-item {
+    display: inline-block;
+    width: 50%;
+}
+
+.project-name {
+    color: #090909;
+}
