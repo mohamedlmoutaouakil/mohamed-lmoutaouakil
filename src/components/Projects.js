@@ -27,26 +27,27 @@ class TechStackList extends React.Component {
   class ProjectRow extends React.Component {
     
     render() {
+      
       return (
-        <div className="project-row border-bottom row py-4">
-          <div className="col-sm-4" >
-            <img className="project-image mx-auto d-block img-fluid" src={this.props.project.image} alt={this.props.project.name} />
-          </div>
-          <div className="col-sm-8">
-            <h2 className="project-name" >{this.props.project.name}</h2>
-            <div className="project-details">
-              <div className="project-description">
-                <p>
-                  {this.props.project.description}
-                </p>
+          <div className="row py-4 w-75 mx-auto">
+            <div className="col-sm-4" >
+              <img className="project-image mx-auto d-block img-fluid" src={this.props.project.image} alt={this.props.project.name} />
+            </div>
+            <div className="col-sm-8">
+              <h2 className="project-name" >{this.props.project.name}</h2>
+              <div className="project-details">
+                <div className="project-description">
+                  <p>
+                    {this.props.project.description}
+                  </p>
+                </div>
               </div>
-          </div>
-          </div>
-          <div className="w-100"></div>
-          <div className="col-sm-12 d-flex tech-stack">
+            </div>
+            <div className="w-100"></div>
+            <div className="col-sm-12 d-flex tech-stack">
               <TechStackList technologies={this.props.project.technologies} />
             </div>
-        </div>
+          </div>
       );
     }
   }
@@ -83,23 +84,48 @@ class TechStackList extends React.Component {
         }
       ]
     };
+
+    const customKMeans2 = {
+      name: 'Custom KMeans',
+      image: customKMeansImage,
+      description: customKMeansDesc,
+      technologies: [
+        {
+          name: "Python",
+          image: pythonLogo
+        }
+      ]
+    };
+
+    const customKMeans3 = {
+      name: 'Custom KMeans',
+      image: customKMeansImage,
+      description: customKMeansDesc,
+      technologies: [
+        {
+          name: "Python",
+          image: pythonLogo
+        }
+      ]
+    };
   
-    return [sharedPointer, customKMeans];
+    return [sharedPointer, customKMeans, customKMeans2, customKMeans3];
   }
   
   function Projects() {
     
+    const rowClasses = ["w-100 project-row-grey", "w-100 project-row-white"];
     const projectsList = getProjects();
-    const projectsRows = projectsList.map((project) =>
-      <ProjectRow project={project} />
+    const projectsRows = projectsList.map((project, index) =>
+      <ProjectRow project={project} rowColor={rowClasses[index % 2]} />
     );
     return (
-      <div id="projects-section">
-        <h1 className="text-center my-5" >Projects</h1>
-        <div className="container projects-list" >
+      <section className="py-5" id="projects">
+        <h1 className="text-center py-5" >Projects</h1>
+        <div className="projects-list" >
           {projectsRows}
         </div>
-      </div>
+      </section>
     );
   }
 

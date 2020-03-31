@@ -2,3 +2,11 @@
 .contact-btn:hover {
     width: 135px;
 }
+
+#contact > h1 {
+    color: white;
+}
+
+.dark-bg {
+    background-color: #252934;
+}

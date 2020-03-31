@@ -1,4 +1,8 @@
 
+#projects {
+    background-color: white;
+}
+
 .techs-list {
     list-style-type: none;
     margin: 0;
@@ -12,4 +16,55 @@
 
 .project-name {
     color: #090909;
+}
+
+.project-row-grey {
+    background: 
+        linear-gradient(to bottom right, #cccccc 50%, transparent 50.5%) no-repeat bottom,
+        /* bottom part */
+        linear-gradient(0deg, #cccccc, #cccccc) no-repeat top;
+        /* top portion */
+    color: white;
+    padding-bottom: 3em;
+    background-size: 100% 1em, 100% calc(100% - 1em)
+}
+
+.project-row-white {
+    background: 
+        linear-gradient(to bottom right, #ffffff 50%, transparent 50.5%) no-repeat bottom,
+        /* bottom part */
+        linear-gradient(0deg, #ffffff, #ffffff) no-repeat top;
+        /* top portion */
+    color: white;
+    padding-bottom: 3em;
+    background-size: 100% 7em, 100% calc(100% - 7em)
+}
+
+#chevron {
+    position: relative;
+    text-align: center;
+    padding: 12px;
+    margin-bottom: 6px;
+    height: 60px;
+    width: 200px;
+}
+#chevron:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 51%;
+    background: red;
+    transform: skew(0deg, 6deg);
+}
+#chevron:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 50%;
+    background: red;
+    transform: skew(0deg, -6deg);
 }
