@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9c98e54f.chunk.css",
+    "main.js": "/static/js/main.94636605.chunk.js",
+    "main.js.map": "/static/js/main.94636605.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ceaf4b5f.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ceaf4b5f.js.map",
+    "static/css/2.de424728.chunk.css": "/static/css/2.de424728.chunk.css",
+    "static/js/2.33a2163a.chunk.js": "/static/js/2.33a2163a.chunk.js",
+    "static/js/2.33a2163a.chunk.js.map": "/static/js/2.33a2163a.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.842cd5a13b85fdbdf358785d360e8346.js": "/precache-manifest.842cd5a13b85fdbdf358785d360e8346.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.de424728.chunk.css.map": "/static/css/2.de424728.chunk.css.map",
+    "static/css/main.9c98e54f.chunk.css.map": "/static/css/main.9c98e54f.chunk.css.map",
+    "static/js/2.33a2163a.chunk.js.LICENSE.txt": "/static/js/2.33a2163a.chunk.js.LICENSE.txt",
+    "static/media/MLshape.png": "/static/media/MLshape.6ca0cb31.png",
+    "static/media/flask-logo.png": "/static/media/flask-logo.04fe2ba1.png",
+    "static/media/github-logo.svg": "/static/media/github-logo.b4b0a1ac.svg",
+    "static/media/gmail-logo.png": "/static/media/gmail-logo.1855e821.png",
+    "static/media/linkedin-logo.svg": "/static/media/linkedin-logo.831a9224.svg",
+    "static/media/photo.jpg": "/static/media/photo.1ce88f8b.jpg",
+    "static/media/python-logo.png": "/static/media/python-logo.b9bbb1d7.png",
+    "static/media/smart-pointers.jpg": "/static/media/smart-pointers.0e1c63a4.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ceaf4b5f.js",
+    "static/css/2.de424728.chunk.css",
+    "static/js/2.33a2163a.chunk.js",
+    "static/css/main.9c98e54f.chunk.css",
+    "static/js/main.94636605.chunk.js"
+  ]
+}
