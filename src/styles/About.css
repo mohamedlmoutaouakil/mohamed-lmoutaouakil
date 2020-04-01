@@ -16,5 +16,5 @@
 
 #about {
     background-color: #f0f0f0;
-    height: 100vh;
+    min-height: -webkit-fill-available;
 }
