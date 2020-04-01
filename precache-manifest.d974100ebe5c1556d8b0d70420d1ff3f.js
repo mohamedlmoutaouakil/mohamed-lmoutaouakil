@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5cb7538fb7be5cba633c91508e3e4de5",
+    "revision": "bba1ae2fe68544729f47bfd3fc6a3746",
     "url": "/mohamed-lmoutaouakil/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mohamed-lmoutaouakil/static/css/2.de424728.chunk.css"
   },
   {
-    "revision": "7ae8681a07d13c1bdf72",
-    "url": "/mohamed-lmoutaouakil/static/css/main.2a454de0.chunk.css"
+    "revision": "e4c1662bd5caacaf9a29",
+    "url": "/mohamed-lmoutaouakil/static/css/main.e6c5e256.chunk.css"
   },
   {
     "revision": "1c2c642b9e8edaba4325",
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/mohamed-lmoutaouakil/static/js/2.1262cc87.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7ae8681a07d13c1bdf72",
+    "revision": "e4c1662bd5caacaf9a29",
     "url": "/mohamed-lmoutaouakil/static/js/main.36b2f67e.chunk.js"
   },
   {

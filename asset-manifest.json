@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/mohamed-lmoutaouakil/static/css/main.2a454de0.chunk.css",
+    "main.css": "/mohamed-lmoutaouakil/static/css/main.e6c5e256.chunk.css",
     "main.js": "/mohamed-lmoutaouakil/static/js/main.36b2f67e.chunk.js",
     "main.js.map": "/mohamed-lmoutaouakil/static/js/main.36b2f67e.chunk.js.map",
     "runtime-main.js": "/mohamed-lmoutaouakil/static/js/runtime-main.32d1bda9.js",
@@ -9,10 +9,10 @@
     "static/js/2.1262cc87.chunk.js": "/mohamed-lmoutaouakil/static/js/2.1262cc87.chunk.js",
     "static/js/2.1262cc87.chunk.js.map": "/mohamed-lmoutaouakil/static/js/2.1262cc87.chunk.js.map",
     "index.html": "/mohamed-lmoutaouakil/index.html",
-    "precache-manifest.e80901f5d7e3c10778f9ac73c4cbf4de.js": "/mohamed-lmoutaouakil/precache-manifest.e80901f5d7e3c10778f9ac73c4cbf4de.js",
+    "precache-manifest.d974100ebe5c1556d8b0d70420d1ff3f.js": "/mohamed-lmoutaouakil/precache-manifest.d974100ebe5c1556d8b0d70420d1ff3f.js",
     "service-worker.js": "/mohamed-lmoutaouakil/service-worker.js",
     "static/css/2.de424728.chunk.css.map": "/mohamed-lmoutaouakil/static/css/2.de424728.chunk.css.map",
-    "static/css/main.2a454de0.chunk.css.map": "/mohamed-lmoutaouakil/static/css/main.2a454de0.chunk.css.map",
+    "static/css/main.e6c5e256.chunk.css.map": "/mohamed-lmoutaouakil/static/css/main.e6c5e256.chunk.css.map",
     "static/js/2.1262cc87.chunk.js.LICENSE.txt": "/mohamed-lmoutaouakil/static/js/2.1262cc87.chunk.js.LICENSE.txt",
     "static/media/MLshape.png": "/mohamed-lmoutaouakil/static/media/MLshape.6ca0cb31.png",
     "static/media/flask-logo.png": "/mohamed-lmoutaouakil/static/media/flask-logo.04fe2ba1.png",
@@ -27,7 +27,7 @@
     "static/js/runtime-main.32d1bda9.js",
     "static/css/2.de424728.chunk.css",
     "static/js/2.1262cc87.chunk.js",
-    "static/css/main.2a454de0.chunk.css",
+    "static/css/main.e6c5e256.chunk.css",
     "static/js/main.36b2f67e.chunk.js"
   ]
 }
